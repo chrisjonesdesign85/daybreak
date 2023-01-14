@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #160F29;
+    color: #DDBEA8;
+}
+
+span {
+    padding-right: 10px;
+}
+.section {
+    display: flex;
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.container {
+    max-width: 500px;
+    margin:auto;
+    border: 1px solid red;
+}
+
+.time-section {
+    padding: 8px;
+    display: flex;
+}
+
+.todo-section {
+    padding-left: 15px;
+}
+.time {
+    border-right: 1px solid green;
+}
+
+.timeslot:nth-child(odd) {
+    background: darkslategrey;
+}
