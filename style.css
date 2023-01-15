@@ -10,22 +10,23 @@ body {
 span {
     padding-right: 10px;
 }
+
 .section {
     display: flex;
 }
 
 header {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
     margin-bottom: 20px;
 }
+
 .container {
     max-width: 500px;
-    margin:auto;
-    border: 1px solid red;
+    margin: auto;
 }
 
 .time-section {
@@ -36,6 +37,7 @@ header {
 .todo-section {
     padding-left: 15px;
 }
+
 .time {
     border-right: 1px solid green;
 }
